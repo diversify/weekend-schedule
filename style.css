@@ -7,7 +7,6 @@ body {
 }
 
 .schedule {
-  width: 40vw;
   margin: auto;
   padding: 20px;
 
@@ -66,6 +65,15 @@ body {
   display: block;
 }
 
+.schedule {
+  width: 40vw;
+}
+
+@media (max-width: 768px) {
+  .schedule {
+    width: 60vw;
+  }
+}
 
 @media (max-width: 480px) {
   .schedule {
