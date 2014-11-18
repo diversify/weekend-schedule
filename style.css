@@ -9,7 +9,8 @@ body {
 .schedule {
   margin: auto;
   padding: 20px;
-
+  width: 40vw;
+  box-sizing: border-box;
 
   color: #E3E3E3;
   background-color: rgba(30, 30, 30, 0.85);
@@ -18,6 +19,17 @@ body {
   font-style: normal;
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+  .schedule {
+    width: 70vw;
+  }
+}
+@media (max-width: 480px) {
+  .schedule {
+    width: 100vw;
+  }
 }
 
 .schedule h1, .schedule h2 {
@@ -63,20 +75,4 @@ body {
   width: 120px;
   margin: 55px auto;
   display: block;
-}
-
-.schedule {
-  width: 40vw;
-}
-
-@media (max-width: 768px) {
-  .schedule {
-    width: 60vw;
-  }
-}
-
-@media (max-width: 480px) {
-  .schedule {
-    width: 100vw;
-  }
 }
