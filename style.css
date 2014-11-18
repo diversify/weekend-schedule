@@ -1,6 +1,18 @@
+body {
+  background-image: url('images/girlguy3.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .schedule {
   width: 40vw;
   margin: auto;
+  padding: 20px;
+
+
+  color: #E3E3E3;
+  background-color: rgba(30, 30, 30, 0.85);
 
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -8,21 +20,22 @@
   font-size: 1.2rem;
   line-height: 1.5;
 
-  background-color: #e6e6e6;
+}
+
+.schedule h1, .schedule h2 {
+  text-align: center;
+  font-weight: bold;
 }
 
 .schedule h1 {
   font-size: 3.2rem;
-  color: rgb(74,74,74);
-  text-align: center;
+}
+
+.schedule h2 {
+  font-size: 2.3rem;
 }
 
 .schedule .header {
-  background-image: url('logo-date.png');
-  width: 280px;
-  height: 170px;
-  background-size: 100%;
-  background-repeat: no-repeat;
   margin: 15px auto;
 }
 
@@ -39,12 +52,16 @@
 }
 
 .schedule .schedule-list li time {
-  font-weight: bold;
-  color: rgb(74, 74, 74);
   width: 130px;
   flex-shrink: 0;
 }
 
 .schedule .schedule-list li span {
   text-align: justify;
+}
+
+.schedule img.spotify-logo {
+  width: 120px;
+  margin: 55px auto;
+  display: block;
 }
