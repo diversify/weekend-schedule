@@ -27,8 +27,17 @@ body {
   }
 }
 @media (max-width: 480px) {
+  body {
+    background-position: -230px;
+  }
+
   .schedule {
     width: 100vw;
+  }
+
+  img.header {
+    width: 100% !important;
+    background: rgba(30, 30, 30, 0.85);
   }
 }
 
