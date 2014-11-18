@@ -1,0 +1,49 @@
+.schedule {
+  width: 40vw;
+  margin: auto;
+
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.5;
+
+  background-color: #e6e6e6;
+}
+
+.schedule h1 {
+  font-size: 3.2rem;
+  color: rgb(74,74,74);
+}
+
+.schedule .header {
+  background-image: url('logo-date.png');
+  width: 280px;
+  height: 170px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 15px auto;
+}
+
+.schedule .schedule-list {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 0;
+}
+
+.schedule .schedule-list li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.schedule .schedule-list li time {
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+  width: 120px;
+  flex-shrink: 0;
+}
+
+.schedule .schedule-list li span {
+  text-align: justify;
+}
