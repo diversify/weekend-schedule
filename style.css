@@ -1,8 +1,9 @@
 body {
   background-image: url('images/girlguy3.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin: 0;
 }
 
 .schedule {
@@ -15,16 +16,13 @@ body {
   background-color: rgba(30, 30, 30, 0.85);
 
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
   font-style: normal;
   font-size: 1.2rem;
   line-height: 1.5;
-
 }
 
 .schedule h1, .schedule h2 {
   text-align: center;
-  font-weight: bold;
 }
 
 .schedule h1 {
@@ -33,6 +31,7 @@ body {
 
 .schedule h2 {
   font-size: 2.3rem;
+  margin-top: 60px;
 }
 
 .schedule .header {
@@ -48,20 +47,28 @@ body {
 .schedule .schedule-list li {
   display: flex;
   flex-direction: row;
-  margin-bottom: 12px;
+  margin-bottom: 25px;
 }
 
 .schedule .schedule-list li time {
   width: 130px;
+  font-weight: 700;
   flex-shrink: 0;
 }
 
 .schedule .schedule-list li span {
-  text-align: justify;
+  color: lightgrey;
 }
 
 .schedule img.spotify-logo {
   width: 120px;
   margin: 55px auto;
   display: block;
+}
+
+
+@media (max-width: 480px) {
+  .schedule {
+    width: 100vw;
+  }
 }
